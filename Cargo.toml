@@ -1,0 +1,16 @@
+[package]
+name = "addbib"
+version = "0.1.0"
+edition = "2021"
+license = "EUPL-1.2"
+readme = "README.md"
+
+[[bin]]
+name = "addbib"
+
+[dependencies]
+anyhow = "1.0.97"
+clap = { version = "4.5.31", features = ["derive"] }
+colored = "3.0.0"
+hayagriva = "0.8.1"
+regex = "1.11.1"
