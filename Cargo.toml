@@ -1,9 +1,20 @@
 [package]
 name = "addbib"
+authors = ["Andrew Rowan Barlow <a.barlow.dev@gmail.com>"]
 version = "0.1.0"
 edition = "2021"
 license = "EUPL-1.2"
 readme = "README.md"
+description = "An app to add linked bibliographies to markdown files."
+repository = "https://github.com/a-barlow/addbib"
+categories = ["text-processing", "command-line-utilities"]
+keywords = [
+  "markdown",
+  "bibliography",
+  "citations",
+  "automation",
+  "documentation",
+]
 
 [[bin]]
 name = "addbib"
